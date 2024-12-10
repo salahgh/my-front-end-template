@@ -1,8 +1,0 @@
-{
-  "name": "my-react-vite-template",
-  "description": "A React + Vite + TypeScript template with MUI, Apollo Client, Redux, Formik, and Notistack",
-  "version": "1.0.0",
-  "scripts": {
-    "postinstall": "npm install"
-  }
-}
