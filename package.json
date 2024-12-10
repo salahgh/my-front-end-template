@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview" ,
+    "run_code_gen": "graphql-codegen --config ./src/graphql/codegen.ts -w"
   },
   "dependencies": {
     "@apollo/client": "^3.12.2",
@@ -34,6 +35,8 @@
     "prettier": "^3.4.2",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1" ,
+    "@graphql-codegen/cli": "^5.0.2" ,
+    "@parcel/watcher": "^2.5.0"
   }
 }
