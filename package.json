@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "run_code_gen": "graphql-codegen --config ./src/graphql/codegen.ts -w" ,
+    "run_code_gen": "graphql-codegen --config ./src/graphql/codegen.ts -w",
     "build:css": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch"
   },
   "dependencies": {
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.2",
+    "@iconify/react": "^5.1.0",
     "@parcel/watcher": "^2.5.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
