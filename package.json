@@ -9,14 +9,17 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "run_code_gen": "graphql-codegen --config ./src/graphql/codegen.ts -w",
-    "build:css": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+    "build:css": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch",
+    "generate:assets": "node scripts/generateAssetsObject.cjs"
   },
   "dependencies": {
     "@apollo/client": "^3.12.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mui/material": "^6.1.10",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/material": "^6.2.1",
     "@reduxjs/toolkit": "^2.4.0",
+    "classnames": "^2.5.1",
     "formik": "^2.4.6",
     "graphql": "^16.9.0",
     "notistack": "^3.0.1",
